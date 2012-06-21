@@ -1,5 +1,6 @@
 Wecipe::Application.routes.draw do
 
+  resources :recipes
   resources :ingredients
 
   get "home/index"
