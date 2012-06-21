@@ -1,11 +1,10 @@
-<h1>Listing recipes</h1>
+<h1>Recipes</h1>
 
-<table>
+<table border="1">
   <tr>
     <th>Name</th>
     <th>Tags</th>
     <th>Instructions</th>
-    <th></th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,7 +15,6 @@
     <td><%= recipe.name %></td>
     <td><%= recipe.tags %></td>
     <td><%= recipe.instructions %></td>
-    <td><%= recipe. %></td>
     <td><%= link_to 'Show', recipe %></td>
     <td><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
     <td><%= link_to 'Destroy', recipe, :confirm => 'Are you sure?', :method => :delete %></td>
